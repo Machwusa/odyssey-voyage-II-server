@@ -17,6 +17,14 @@
     http-cache-semantics "^4.1.0"
     node-fetch "^2.6.7"
 
+"@apollo/federation-internals@2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@apollo/federation-internals/-/federation-internals-2.3.4.tgz#333ff9fdb54a2776ca71c27cc6b5d9799e58c43f"
+  integrity sha512-xeBv6ASrOfYuOk/mbpWBThq1oIK95tjPVYgTNt2Axg0HB77o4uqhUVE+saNPvlVdqmfm4E6GafDf1BvvhoAOcA==
+  dependencies:
+    chalk "^4.1.0"
+    js-levenshtein "^1.1.6"
+
 "@apollo/protobufjs@1.2.7":
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/@apollo/protobufjs/-/protobufjs-1.2.7.tgz#3a8675512817e4a046a897e5f4f16415f16a7d8a"
@@ -76,6 +84,14 @@
     node-fetch "^2.6.7"
     uuid "^9.0.0"
     whatwg-mimetype "^3.0.0"
+
+"@apollo/subgraph@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@apollo/subgraph/-/subgraph-2.3.4.tgz#48e776dd0063a2ed8a6b23c9cf7b9be58f799653"
+  integrity sha512-/V3NPLjCM+saxxj0n0HxogXeEnE3MKaJiYSl5nV1C0SE2tk7U8n6cOUGa9ZLY2rnLzzIOHQrF/GGvm8fUMFzcw==
+  dependencies:
+    "@apollo/cache-control-types" "^1.0.2"
+    "@apollo/federation-internals" "2.3.4"
 
 "@apollo/usage-reporting-protobuf@^4.0.0", "@apollo/usage-reporting-protobuf@^4.1.0":
   version "4.1.0"
@@ -1284,6 +1300,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
+
+js-levenshtein@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
+  integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
