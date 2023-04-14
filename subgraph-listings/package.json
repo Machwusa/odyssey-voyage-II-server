@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "nodemon index.js",
-    "schemaCheck": "rover subgraph check My-Graph-j8b549@staging  --schema schema.graphql  --name listings",
+    "checkSchema": "rover subgraph check My-Graph-j8b549@staging  --schema schema.graphql  --name listings",
     "publishSchema": "rover subgraph publish My-Graph-j8b549@staging --schema schema.graphql --name listings --routing-url http://localhost:4003"
   },
   "nodemonConfig": {
